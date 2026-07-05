@@ -3,7 +3,7 @@
 A library for placing content inside desktop-like windows, with a variety of themes and styles.
 
 <p align="center">
-  <img src="./examples/example-1.svg" width="600" />
+  <img src="./examples/example-1.svg" width="600" alt="Examples of each theme" />
 </p>
 
 ## Main function
@@ -69,7 +69,7 @@ A couple of functions are included to provide typical assets for the windows. Th
 </details>
 
 <p align="center">
-  <img src="./examples/example-2.svg" width="300" />
+  <img src="./examples/example-2.svg" width="300" alt="Example of a more complex window with included assets" />
 </p>
 
 ## Phone frame
@@ -77,5 +77,5 @@ A couple of functions are included to provide typical assets for the windows. Th
 As a little extra, the `phone-frame` function is provided, which takes content and places it inside a phone-like frame. Some of its arguments refer to the placing of a couple small icons, whose functions are also available: `battery-icon-modern`, `battery-icon-classic`, and `signal-icon`.
 
 <p align="center">
-  <img src="./examples/example-3.svg" width="150" />
+  <img src="./examples/example-3.svg" width="150" alt="Example of a phone frame" />
 </p>
