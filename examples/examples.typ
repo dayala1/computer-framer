@@ -5,11 +5,11 @@
 
 
 #let themes = (
-  "Windows 98": windows-98-theme(),
-  "Ubuntu": ubuntu-theme(),
-  "MacOS": macos-theme(),
-  "KDE breeze": kde-breeze-theme(light-theme: false),
-  "Windows 11": windows-11-theme(),
+  "Retro": retro-theme(),
+  "Purple": purple-theme(),
+  "Minimalistic": minimalistic-theme(),
+  "Neutral": neutral-theme(light-theme: false),
+  "Modern": modern-theme(),
   "Generic": rounded-window-theme(),
 )
 #let contents = [
@@ -29,7 +29,7 @@
 
 #pagebreak()
 
-#let theme = macos-theme()
+#let theme = minimalistic-theme()
 #set text(font: "Noto Sans")
 #shadow(desktop-window-frame(
   [

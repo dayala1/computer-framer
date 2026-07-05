@@ -1,7 +1,7 @@
 #import "./utils.typ": *
 
-// Windows 98
-#let windows-98-theme(
+// Retro
+#let retro-theme(
   inset: .2em,
   background-color: rgb(212, 208, 200),
   header-color: gradient.linear(dir: ltr, (rgb(0, 0, 124), 0%), (rgb(17, 141, 227), 100%)),
@@ -212,14 +212,14 @@
   )
 }
 
-// Ubuntu
-#let ubuntu-theme(
+// Purple
+#let purple-theme(
   radius-amount: 0.75em,
   rounded-bottom: true,
   header-color: luma(50%),
   button-scale: 100%,
   button-colors: (rgb("#9a9a9a"), rgb("#9a9a9a"), rgb("#e56d2c")),
-  font: "Ubuntu",
+  font: "Noto Sans",
   font-size: 0.75em,
   text-color: white,
   header-height: 1.4em,
@@ -268,8 +268,8 @@
   )
 }
 
-// Mac OS
-#let macos-theme(
+// Minimalistic
+#let minimalistic-theme(
   radius-amount: 0.65em,
   rounded-bottom: true,
   header-color: luma(95%),
@@ -303,8 +303,8 @@
   )
 }
 
-// KDE breeze
-#let kde-breeze-theme(
+// Neutral
+#let neutral-theme(
   header-color: none,
   stroke-color: none,
   text-color: none,
@@ -381,8 +381,8 @@
   )
 }
 
-// Windows 11
-#let windows-11-theme(
+// Modern
+#let modern-theme(
   radius-amount: 0.2em,
   rounded-bottom: true,
   header-color: rgb("#F3F3F3"),

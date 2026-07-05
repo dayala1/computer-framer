@@ -48,12 +48,12 @@ Several functions are provided to create predefined themes with a certain level 
 <details>
 <summary>Predefined themes</summary>
 
-* `windows-98-theme`: Classical Windows style with strong bevels.
-* `ubuntu-theme`: Ubuntu style with purple background.
-* `macos-theme`: MacOS style with a more minimalistic design and green/orange/red buttons.
-* `kde-breeze-theme`: KDE Breeze style with a more minimalistic design. Can use light or dark mode, or fully custom colors.
-* `windows-11-theme`: Windows 11 style.
-* `rounded-window-theme`: Generic, highly customizable theme. Used by all the other themes except for `windows-98-theme`, instanced in different ways. By defult it offers a mockup-like style with strong strokes. 
+* `retro-theme`: Classic desktop style with strong bevels.
+* `purple-theme`: Purple-accented theme with rounded controls.
+* `minimalistic-theme`: Minimal theme with green/orange/red buttons.
+* `neutral-theme`: Neutral minimal theme. Can use light or dark mode, or fully custom colors.
+* `modern-theme`: Modern rounded theme.
+* `rounded-window-theme`: Generic, highly customizable theme. Used by all the other themes except for `retro-theme`, instanced in different ways. By defult it offers a mockup-like style with strong strokes. 
 </details>
 
 ## Included assets
